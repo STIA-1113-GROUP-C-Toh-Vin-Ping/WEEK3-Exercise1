@@ -1,0 +1,19 @@
+package week3Exercise1;
+
+public class RectangleComputation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double length, wide, area, perimeter;
+		length = 3.7;
+		wide = 4;
+		area = length*wide;
+		perimeter = ((length*2) + (wide*2));
+		System.out.print("The area is ");
+		System.out.println(area);
+		System.out.print("The perimeter is ");
+		System.out.println(perimeter);
+
+	}
+
+}
