@@ -9,10 +9,10 @@ public class RectangleComputation {
 		wide = 4;
 		area = length*wide;
 		perimeter = ((length*2) + (wide*2));
-		System.out.print("The area is ");
-		System.out.println(area);
-		System.out.print("The perimeter is ");
-		System.out.println(perimeter);
+		System.out.printf("The area is %.2f", area);
+		System.out.println();
+		System.out.printf("The perimeter is %.2f", perimeter);
+		System.out.println();
 
 	}
 
